@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Counter</title>
+    
+</head>
+<body>
+    <div class="canvas" id="canvas">
+        <!-- container contain all counter and buttons -->
+        <div class="container" id="container">
+            <div class="title" id="title">COUNTER</div>
+            <!-- class warn display when counter value < 0 -->
+            <div class="warn" id="warn"><span>Counter Value Cannot Be Negative</span></div>
+            <div class="counter" id="counter">
+                <h1 id="numbers">0</h1>
+            </div>
+            <!-- button used for inc ,dec and reset -->
+            <div class="buttons row" id="button">
+                <input type="button" class="butto" id="inc" value="+">
+                <input type="button" id="reset" class="butto" value="Reset">
+                <input type="button" id="dec" class="butto" value="-">
+                
+            </div>
+        </div>
+    </div>
+</body>
+<script src="counter.js"></script>
+</html>
